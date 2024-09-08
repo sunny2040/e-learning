@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-learning - Make The Difference</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="index.html">
+          <img src="./assets/images/logo.png" alt="Devblog's logo" width="150" height="40" class="logo-light">
+          <img src="./assets/images/logo.png" alt="Devblog's logo" width="150" height="40" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <!-- <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Sunny&nbsp;Kumar</b>.
+            <br>Full Stack Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in <abbr title="Accessibility">Java,JBPM (BPMN)</abbr>
+            and Core Web Vitals
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/sunny.png" alt="Sunny Kumar" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> -->
+
+
+
+
+
+    <main>
+
+        <div class="main">
+      
+          <div class="container">
+      
+            <!--
+              - BLOG SECTION
+            -->
+      
+            <div class="blog">
+      
+              <h2 class="h2">Java Tutorials</h2>
+      
+              <div class="wrapper-flex">
+      
+                <div class="profile-wrapper">
+                  <img src="./assets/images/author.png" alt="Sunny Kumar" width="40">
+                </div>
+      
+                <div class="wrapper">
+                  <a href="#" class="h4">Sunny Kumar</a>
+      
+                  <p class="text-sm">
+                    <time datetime="2021-09-21">Sep 21, 2021</time>
+                    <span class="separator"></span>
+                    <ion-icon name="time-outline"></ion-icon>
+                    <time datetime="PT10M">10 min read</time>
+                  </p>
+                </div>
+      
+              </div>
+      
+              <div class="tutorials">
+      
+                <h3 class="h3">Object-Oriented Programming Concepts in Java</h3>
+      
+                <ul>
+                  <li>
+                    <h4>Encapsulation</h4>
+                    <p>Encapsulation is the concept of wrapping the data (variables) and the code (methods) together as a single unit. This is achieved by declaring the variables as private and providing public getter and setter methods to access and update the variable values.</p>
+                  </li>
+      
+                  <li>
+                    <h4>Inheritance</h4>
+                    <p>Inheritance allows one class to inherit the fields and methods of another class. It promotes code reusability and establishes a parent-child relationship between classes.</p>
+                  </li>
+      
+                  <li>
+                    <h4>Polymorphism</h4>
+                    <p>Polymorphism allows objects of different classes to be treated as objects of a common super class. It is commonly achieved in two ways: method overriding and method overloading.</p>
+                  </li>
+      
+                  <li>
+                    <h4>Abstraction</h4>
+                    <p>Abstraction involves hiding the implementation details from the user and only showing the functionality. Abstract classes and interfaces are used to achieve abstraction in Java.</p>
+                  </li>
+                </ul>
+      
+                <h3 class="h3">Additional Java Functionalities</h3>
+      
+                <ul>
+                  <li>
+                    <h4>Exception Handling</h4>
+                    <p>Java provides a robust and flexible mechanism for handling runtime errors using try-catch blocks. This ensures that the normal flow of the application is not interrupted by errors.</p>
+                  </li>
+      
+                  <li>
+                    <h4>Collections Framework</h4>
+                    <p>The Java Collections Framework provides a set of interfaces and classes for storing and manipulating groups of data as a single unit (e.g., List, Set, and Map).</p>
+                  </li>
+      
+                  <li>
+                    <h4>Multithreading</h4>
+                    <p>Multithreading allows concurrent execution of two or more threads to maximize the utilization of CPU. Java provides built-in support for multithreading using the Thread class and Runnable interface.</p>
+                  </li>
+      
+                  <li>
+                    <h4>Streams API</h4>
+                    <p>The Streams API in Java 8 allows functional-style operations on collections of elements. It supports filtering, mapping, and reducing data elements in a concise and readable manner.</p>
+                  </li>
+      
+                </ul>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      
+      </main>
+        <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo.png" alt="DevBlog's Logo" width="150" height="40" class="logo-light">
+          <img src="./assets/images/logo.png" alt="DevBlog's Logo" width="150" height="40" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">E-learning</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
