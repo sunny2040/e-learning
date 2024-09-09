@@ -1072,3 +1072,39 @@ footer .wrapper { text-align: center; }
   .footer-link { margin-bottom: 0.3rem; }
 
 }
+
+.sidebar {
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.content {
+  width: 70%;
+  float: left;
+  display: none; /* Hide all content by default */
+}
+
+.content.active {
+  display: block; /* Show active content */
+}
+
+.tutorial-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tutorial-list li {
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tutorial-list li:hover {
+  color: #007bff;
+}
+
+.clear {
+  clear: both;
+}
